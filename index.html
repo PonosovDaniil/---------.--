@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <form class="container pt-5">
+      <div class="row g-2">
+        <div class="col-sm-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input
+              type="name"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Имя"
+              style="max-width: 52em"
+            />
+            <label for="floatingInput">Имя</label>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input
+              type="surname"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Фамилия"
+              style="max-width: 52em"
+            />
+            <label for="floatingInput">Фамилия</label>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col">
+            <div class="form-floating col-md mb-3">
+              <input
+                type="surname"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Заказ"
+                style="max-width: 10em"
+              />
+              <label for="floatingInput">№ Заказа</label>
+            </div>
+            <div class="form-floating col-md mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                style="width: 20em"
+              />
+              <label for="floatingInput">Адрес электронной почты</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-floating col-md mb-3">
+          <textarea
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Пример текста"
+            style="height: 15rem; max-width: 52rem"
+          ></textarea>
+          <label for="floatingInput">Введите текст</label>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark">Отправить форму</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
